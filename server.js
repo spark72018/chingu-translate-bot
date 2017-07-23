@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const request = require('request');
 const app = express();
 const LanguageTranslatorV2 = require('watson-developer-cloud/language-translator/v2');
 const translator = new LanguageTranslatorV2({
